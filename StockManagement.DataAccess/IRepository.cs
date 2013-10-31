@@ -14,7 +14,7 @@ namespace StockManagement.DataAccess
 
         void Add(E entity);
         void AddOrAttach(E entity);
-        void DeleteRelatedEntries(E entity);
+        void DeleteRelatedEntries(E entity); 
         void DeleteRelatedEntries
         (E entity, ObservableCollection<string> keyListOfIgnoreEntites);
         void Delete(E entity);
